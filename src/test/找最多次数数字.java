@@ -16,6 +16,7 @@ public class 找最多次数数字 {
             } else {
                 times.put(array[i] , 1);
             }
+            
         }
         // 获取map中value最大的key
         Iterator kyes = times.keySet().iterator();
